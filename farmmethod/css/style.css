@@ -35,14 +35,13 @@ body {
 }
 
 a {
-  color: #9c4967;
+  color: black;
 }
 
 .head {
   height: 20vw;
   width: 98vw;
   padding: 2vw;
-  border: 1px solid #9c4967;
 }
 
 
@@ -55,7 +54,6 @@ a {
   height: 160vw;
   width: 83vw;
   padding: 2vw;
-  border: 1px solid #9c4967;
   margin-bottom: 2vw;
 }
 
@@ -63,7 +61,6 @@ a {
   height: 55vw;
   width: 15vw;
   padding: 2vw;
-  border: 1px solid #9c4967;
   font-family: times;
   font-size: 20px;
   height: 160vw;
@@ -74,8 +71,7 @@ a {
 .text {
   font-size: 19px;
   font-family: times;
-  color: #9c4967;
-  width: 50vw;
+  color: black;
 }
 
 .text_zitat {
@@ -95,8 +91,8 @@ a {
 .title {
   font-size: 12px;
   font-family: times;
-  color: #9c4967;
   margin-left: 20vw;
+  color: black;
 }
 
 .b {
