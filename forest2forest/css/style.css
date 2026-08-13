@@ -61,7 +61,7 @@ width: 40vw;
 
 #head {
   width: 20vw;
-  height: 35vw;
+  height: 20vw;
   margin: 1em;
 }
 
@@ -140,11 +140,12 @@ a {
   object-fit: cover;
 }
 
-.img_tree {
+.img_car {
   width: 20vw;
-  height: 30vw;
+  height: 10vw;
   padding: 1em;
   object-fit: cover;
+  margin-bottom: 2em;
 }
 
 .text_foot {
