@@ -43,12 +43,16 @@ body {
   font-family: 'lelo_light';
 }
 
+#container {
+width: 40vw;
+}
+
 #main-wrapper {
   margin: 2em;
 }
 
 #navi {
-  width: 20vw;
+  width: 50vw;
   height: 10vw;
   margin: 1em;
   display: grid;
@@ -57,7 +61,7 @@ body {
 
 #head {
   width: 20vw;
-  height: 20vw;
+  height: 35vw;
   margin: 1em;
 }
 
@@ -71,7 +75,7 @@ body {
   width: 620px;
   height: 620px;
   display: grid;
-  grid-template-columns: repeat(4, 10fr);
+  grid-template-columns: repeat(1, 10fr);
   margin-left: 1em;
 }
 
@@ -105,8 +109,13 @@ a {
   background-color: #e6e6e6;
 }
 
+.a {
+  padding: 5px;
+}
+
 .b {
   padding: 5px;
+  margin-bottom: 10vw;
 }
 
 .title {
@@ -119,12 +128,19 @@ a {
   height: 200px;
 }
 
-.img_klein {
+.img_hoch {
   width: 30vw;
   height: 40vw;
+  object-fit: cover;
 }
 
-.img_klein_tree {
+.img_breit {
+  width: 40vw;
+  height: 30vw;
+  object-fit: cover;
+}
+
+.img_tree {
   width: 20vw;
   height: 30vw;
   padding: 1em;
@@ -132,8 +148,16 @@ a {
 }
 
 .text_foot {
-  color: grey;
-  font-size: 12px;
-  margin-left: 1em;
+  color: black;
+  font-size: 7px;
+  margin-left: 2em;
   margin-bottom: 5vw;
+}
+
+.zahl {
+  font-size: 12px;
+  font-family: 'lelo_light';
+  line-height: 2;
+  color: black;
+  margin: 1em;
 }
