@@ -1,0 +1,106 @@
+
+a, button, input, label {
+  cursor: pointer
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+/* CSS */
+
+/* Mobile */
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* CSS variables */
+:root {
+  --color-bg: ;
+  --color-primary: ;
+  --color-light:
+  --first-size: ;
+  --second-size: ;
+}
+
+/* CSS */
+
+body {
+  height: 50vw;
+}
+
+a {
+  color: black;
+}
+
+
+#nav {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 45vw;
+  padding: 2vw;
+  height: 16vw;
+  margin-bottom: 2vw;
+  margin-left: 20vw;
+}
+
+.navunter {
+  font-family: Courier New;
+  font-size: 14px;
+}
+
+.phplink {
+  font-size: 14px;
+  font-family: Courier New;
+
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+.inhalt {
+  height: 160vw;
+  width: 65vw;
+  padding: 2vw;
+  margin-bottom: 2vw;
+  margin-left: 20vw;
+}
+
+
+.text {
+  font-size: 15px;
+  font-family: Courier New;
+  color: black;
+  line-height: 1.5em;
+}
+
+
+.title {
+  font-size: 14px;
+  font-family: Courier New;
+  height: 20vw;
+  width: 98vw;
+  padding: 2vw;
+  margin-left: 20vw;
+}
+
+.b {
+  border: 0.1px solid lightgrey;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.images {
+  width: 100px;
+  height: 130px;
+}

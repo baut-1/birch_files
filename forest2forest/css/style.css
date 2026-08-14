@@ -113,10 +113,6 @@ a {
   padding: 5px;
 }
 
-.b {
-  padding: 5px;
-  margin-bottom: 10vw;
-}
 
 .title {
   width: 80vw;
@@ -136,7 +132,7 @@ a {
 
 .img_breit {
   width: 40vw;
-  height: 30vw;
+  height: 33vw;
   object-fit: cover;
 }
 
@@ -160,5 +156,5 @@ a {
   font-family: 'lelo_light';
   line-height: 2;
   color: black;
-  margin: 1em;
+  margin-bottom: 1em;
 }
