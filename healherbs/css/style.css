@@ -50,7 +50,7 @@ body {
   border-radius: 65px;
   margin-left: 20vw;
   width: 60vw;
-  height: 70vw;
+  height: 69vw;
 }
 
 #day {
@@ -58,15 +58,12 @@ body {
   height: 10vw;
   display: grid;
   grid-template-columns: repeat(4, 10fr);
-  margin-left: 5vw;
   margin-top: 5vw;
-  margin-right: 5vw;
   margin-bottom: 5vw;
 }
 
 #day_1 {
   width: 50vw;
-  height: 80vw;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   margin-left: 5vw;
@@ -74,6 +71,7 @@ body {
 }
 
 .b {
+  text-align: center;
 
 }
 
@@ -99,4 +97,10 @@ div {
 
 a {
   text-decoration: none;
+}
+
+.img_breit {
+  width: 44vw;
+  height: 30vw;
+  display: inline-block;
 }
